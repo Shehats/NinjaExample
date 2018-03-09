@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    ninja:
+      url: /ninja/*
+      redirect: http://ninja-service/ninja
